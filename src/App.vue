@@ -1,0 +1,37 @@
+<template>
+  <div id='background'>
+  <router-view />
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+import PlayersList from './components/PlayersList.vue';
+
+export default defineComponent({
+  name: 'App',
+  components: {
+//    PlayersList
+  }
+});
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 0px;
+  background-color: #051c2d;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0;
+  height:auto;
+  background-color: #051c2d;
+}
+
+</style>
