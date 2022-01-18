@@ -4,18 +4,6 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-import PlayersList from './components/PlayersList.vue';
-
-export default defineComponent({
-  name: 'App',
-  components: {
-//    PlayersList
-  }
-});
-</script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
